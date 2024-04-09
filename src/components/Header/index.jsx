@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     
   },
   safeArea: {
-    // paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 0 : 0,
   },
   flexTitle: {
     flexDirection: 'row',
